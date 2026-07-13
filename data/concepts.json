@@ -1,0 +1,662 @@
+{
+  "version": "v1",
+  "conceptCount": 82,
+  "concepts": [
+    {
+      "id": "m_count10",
+      "subject": "math",
+      "domain": "数与代数",
+      "title": "数数1到10",
+      "question": "你的孩子能从1数到10，并用手指数出对应的数量吗？",
+      "grade": 0
+    },
+    {
+      "id": "m_count20",
+      "subject": "math",
+      "domain": "数与代数",
+      "title": "数数1到20",
+      "question": "你的孩子能接着10往下数到20，并认出每个数字吗？",
+      "grade": 0
+    },
+    {
+      "id": "m_compare",
+      "subject": "math",
+      "domain": "数与代数",
+      "title": "比较多少",
+      "question": "给两堆糖果，你的孩子能说出哪堆多、哪堆少吗？",
+      "grade": 0
+    },
+    {
+      "id": "m_add10",
+      "subject": "math",
+      "domain": "数与代数",
+      "title": "10以内加法",
+      "question": "你的孩子能用凑十法或数数算出3+4这样的加法吗？",
+      "grade": 1
+    },
+    {
+      "id": "m_sub10",
+      "subject": "math",
+      "domain": "数与代数",
+      "title": "10以内减法",
+      "question": "你的孩子能算出7-3这样的减法，并说清“拿走”的意思吗？",
+      "grade": 1
+    },
+    {
+      "id": "m_add20",
+      "subject": "math",
+      "domain": "数与代数",
+      "title": "20以内进位加法",
+      "question": "你的孩子能算8+5这类需要进位的加法吗？",
+      "grade": 2
+    },
+    {
+      "id": "m_mult",
+      "subject": "math",
+      "domain": "数与代数",
+      "title": "乘法口诀",
+      "question": "你的孩子能背出九九乘法表，并理解“3个4”就是3×4吗？",
+      "grade": 3
+    },
+    {
+      "id": "m_div",
+      "subject": "math",
+      "domain": "数与代数",
+      "title": "除法基础",
+      "question": "你的孩子能把12颗糖平均分成3份，并说清除法的含义吗？",
+      "grade": 3
+    },
+    {
+      "id": "m_frac",
+      "subject": "math",
+      "domain": "数与代数",
+      "title": "分数初步认识",
+      "question": "把一个披萨切成4份，你的孩子能说出每份是四分之一吗？",
+      "grade": 4
+    },
+    {
+      "id": "m_decimal",
+      "subject": "math",
+      "domain": "数与代数",
+      "title": "小数认识与运算",
+      "question": "你的孩子能读出商品价格上的小数，并理解0.5元就是5角吗？",
+      "grade": 5
+    },
+    {
+      "id": "m_percent",
+      "subject": "math",
+      "domain": "数与代数",
+      "title": "百分数",
+      "question": "看到“打八折”，你的孩子能说清这是原价的80%吗？",
+      "grade": 6
+    },
+    {
+      "id": "m_equation",
+      "subject": "math",
+      "domain": "数与代数",
+      "title": "简易方程",
+      "question": "你的孩子能用字母表示未知数，并解出x+3=7吗？",
+      "grade": 6
+    },
+    {
+      "id": "m_ratio",
+      "subject": "math",
+      "domain": "数与代数",
+      "title": "比和比例",
+      "question": "你的孩子能理解2:3的比，并按比例分配物品吗？",
+      "grade": 6
+    },
+    {
+      "id": "m_area",
+      "subject": "math",
+      "domain": "图形与几何",
+      "title": "平面图形面积",
+      "question": "你的孩子能算出长方形和三角形的面积吗？",
+      "grade": 5
+    },
+    {
+      "id": "m_stat",
+      "subject": "math",
+      "domain": "统计与概率",
+      "title": "统计与平均数",
+      "question": "你的孩子能读懂条形统计图，并算出一组数的平均数吗？",
+      "grade": 6
+    },
+    {
+      "id": "c_pinyin",
+      "subject": "chinese",
+      "domain": "拼音与识字",
+      "title": "汉语拼音",
+      "question": "你的孩子能认读声母韵母，并拼出一个字的读音吗？",
+      "grade": 0
+    },
+    {
+      "id": "c_stroke",
+      "subject": "chinese",
+      "domain": "拼音与识字",
+      "title": "基本笔画与汉字",
+      "question": "你的孩子能按笔顺写出“水”“火”这样的字吗？",
+      "grade": 0
+    },
+    {
+      "id": "c_word",
+      "subject": "chinese",
+      "domain": "词汇",
+      "title": "组词与词汇",
+      "question": "给一个字，你的孩子能组出两三个词语吗？",
+      "grade": 1
+    },
+    {
+      "id": "c_sentence",
+      "subject": "chinese",
+      "domain": "句子",
+      "title": "完整的句子",
+      "question": "你的孩子能写出“谁在哪里做什么”这样完整的句子吗？",
+      "grade": 2
+    },
+    {
+      "id": "c_read",
+      "subject": "chinese",
+      "domain": "阅读",
+      "title": "朗读与理解",
+      "question": "你的孩子能流利朗读短文，并回答“故事里发生了什么”吗？",
+      "grade": 2
+    },
+    {
+      "id": "c_comprehension",
+      "subject": "chinese",
+      "domain": "阅读",
+      "title": "阅读理解",
+      "question": "你的孩子能概括一段话的主要内容吗？",
+      "grade": 4
+    },
+    {
+      "id": "c_writepic",
+      "subject": "chinese",
+      "domain": "写作",
+      "title": "看图写话",
+      "question": "给一幅图，你的孩子能用几句话写出图上的故事吗？",
+      "grade": 3
+    },
+    {
+      "id": "c_composition",
+      "subject": "chinese",
+      "domain": "写作",
+      "title": "记叙文写作",
+      "question": "你的孩子能把一件事的起因经过结果写清楚吗？",
+      "grade": 5
+    },
+    {
+      "id": "c_argument",
+      "subject": "chinese",
+      "domain": "写作",
+      "title": "议论文写作",
+      "question": "你的孩子能针对一个观点给出理由并写一篇小议论文吗？",
+      "grade": 6
+    },
+    {
+      "id": "c_poetry",
+      "subject": "chinese",
+      "domain": "文学",
+      "title": "古诗词欣赏",
+      "question": "你的孩子能背诵并大致理解一首唐诗的意思吗？",
+      "grade": 4
+    },
+    {
+      "id": "c_classics",
+      "subject": "chinese",
+      "domain": "文学",
+      "title": "文言文阅读",
+      "question": "你的孩子能借助注释读懂简短的文言文吗？",
+      "grade": 6
+    },
+    {
+      "id": "h_family",
+      "subject": "history",
+      "domain": "个人与家庭",
+      "title": "我的家庭历史",
+      "question": "你的孩子能说说爸爸妈妈小时候和现在的不同吗？",
+      "grade": 0
+    },
+    {
+      "id": "h_community",
+      "subject": "history",
+      "domain": "社区与家乡",
+      "title": "社区与家乡",
+      "question": "你的孩子能介绍自己住的地方有什么特点吗？",
+      "grade": 1
+    },
+    {
+      "id": "h_timeline",
+      "subject": "history",
+      "domain": "历史方法",
+      "title": "时间线与年代",
+      "question": "你的孩子能把几件事按“先”“后”排成一条时间线吗？",
+      "grade": 2
+    },
+    {
+      "id": "h_ancient",
+      "subject": "history",
+      "domain": "中国历史",
+      "title": "中国古代文明",
+      "question": "你的孩子能说出四大文明古国吗？",
+      "grade": 4
+    },
+    {
+      "id": "h_dynasty",
+      "subject": "history",
+      "domain": "中国历史",
+      "title": "主要朝代更替",
+      "question": "你的孩子能按顺序说出几个主要朝代吗？",
+      "grade": 5
+    },
+    {
+      "id": "h_invent",
+      "subject": "history",
+      "domain": "中国历史",
+      "title": "四大发明",
+      "question": "你的孩子能说出中国古代四大发明吗？",
+      "grade": 5
+    },
+    {
+      "id": "h_modern",
+      "subject": "history",
+      "domain": "中国历史",
+      "title": "近代中国的变革",
+      "question": "你的孩子能大致说说近代中国发生了什么大变化吗？",
+      "grade": 6
+    },
+    {
+      "id": "h_world",
+      "subject": "history",
+      "domain": "世界历史",
+      "title": "世界地理与文明",
+      "question": "你的孩子能在地图上指出几个大洲吗？",
+      "grade": 6
+    },
+    {
+      "id": "h_revolution",
+      "subject": "history",
+      "domain": "中国历史",
+      "title": "革命与建国",
+      "question": "你的孩子能说说新中国成立的意义吗？",
+      "grade": 6
+    },
+    {
+      "id": "s_observe",
+      "subject": "science",
+      "domain": "科学探究",
+      "title": "观察与描述",
+      "question": "你的孩子能用眼睛和手观察一片树叶，并说出它的颜色形状吗？",
+      "grade": 0
+    },
+    {
+      "id": "s_living",
+      "subject": "science",
+      "domain": "生命科学",
+      "title": "区分生物与非生物",
+      "question": "你的孩子能说出石头和植物的区别，知道什么是有生命的吗？",
+      "grade": 0
+    },
+    {
+      "id": "s_plant",
+      "subject": "science",
+      "domain": "生命科学",
+      "title": "植物的生长",
+      "question": "你的孩子能说清种子发芽需要什么条件吗？",
+      "grade": 1
+    },
+    {
+      "id": "s_animal",
+      "subject": "science",
+      "domain": "生命科学",
+      "title": "动物的分类",
+      "question": "你的孩子能区分鸟类、鱼类和昆虫吗？",
+      "grade": 1
+    },
+    {
+      "id": "s_matter",
+      "subject": "science",
+      "domain": "物质科学",
+      "title": "物质的三态",
+      "question": "你的孩子能说出冰、水、水蒸气是同一种物质的不同状态吗？",
+      "grade": 2
+    },
+    {
+      "id": "s_water",
+      "subject": "science",
+      "domain": "物质科学",
+      "title": "水的循环",
+      "question": "你的孩子能解释雨是怎么来的吗？",
+      "grade": 3
+    },
+    {
+      "id": "s_force",
+      "subject": "science",
+      "domain": "物质科学",
+      "title": "力与运动",
+      "question": "你的孩子能解释为什么推一下球它会滚，松手会停吗？",
+      "grade": 4
+    },
+    {
+      "id": "s_light",
+      "subject": "science",
+      "domain": "物质科学",
+      "title": "光与影",
+      "question": "你的孩子能用手电筒和玩具演示影子是怎么形成的吗？",
+      "grade": 4
+    },
+    {
+      "id": "s_magnet",
+      "subject": "science",
+      "domain": "物质科学",
+      "title": "磁铁与磁性",
+      "question": "你的孩子能找出家里哪些东西能被磁铁吸住吗？",
+      "grade": 4
+    },
+    {
+      "id": "s_circuit",
+      "subject": "science",
+      "domain": "物质科学",
+      "title": "简单电路",
+      "question": "你的孩子能用导线、电池和灯泡连出一个小电路吗？",
+      "grade": 5
+    },
+    {
+      "id": "s_earth",
+      "subject": "science",
+      "domain": "地球与宇宙",
+      "title": "地球与太阳系",
+      "question": "你的孩子能说清为什么有白天黑夜吗？",
+      "grade": 5
+    },
+    {
+      "id": "s_eco",
+      "subject": "science",
+      "domain": "生命科学",
+      "title": "生态系统",
+      "question": "你的孩子能解释食物链里“大鱼吃小鱼”的关系吗？",
+      "grade": 6
+    },
+    {
+      "id": "s_energy",
+      "subject": "science",
+      "domain": "物质科学",
+      "title": "能量与转化",
+      "question": "你的孩子能举例说明能量可以从一种形式变成另一种吗？",
+      "grade": 6
+    },
+    {
+      "id": "p_self",
+      "subject": "pse",
+      "domain": "自我认识",
+      "title": "认识我自己",
+      "question": "你的孩子能说说自己的优点和喜欢做的事吗？",
+      "grade": 0
+    },
+    {
+      "id": "p_emotion",
+      "subject": "pse",
+      "domain": "情绪管理",
+      "title": "情绪与表达",
+      "question": "你的孩子能说出自己现在是什么心情，并说出原因吗？",
+      "grade": 1
+    },
+    {
+      "id": "p_friend",
+      "subject": "pse",
+      "domain": "社会交往",
+      "title": "友谊与合作",
+      "question": "你的孩子能和朋友一起完成一个任务，并说出合作的好处吗？",
+      "grade": 2
+    },
+    {
+      "id": "p_rule",
+      "subject": "pse",
+      "domain": "规则意识",
+      "title": "规则与公平",
+      "question": "你的孩子能说清为什么玩游戏要守规则吗？",
+      "grade": 2
+    },
+    {
+      "id": "p_resp",
+      "subject": "pse",
+      "domain": "责任担当",
+      "title": "责任与担当",
+      "question": "你的孩子能主动承担一项家务并坚持吗？",
+      "grade": 4
+    },
+    {
+      "id": "p_persp",
+      "subject": "pse",
+      "domain": "社会交往",
+      "title": "理解他人",
+      "question": "你的孩子能站在别人的角度想一想对方的感受吗？",
+      "grade": 4
+    },
+    {
+      "id": "p_citizen",
+      "subject": "pse",
+      "domain": "公民意识",
+      "title": "公民意识",
+      "question": "你的孩子能说说作为一个小公民有哪些权利和义务吗？",
+      "grade": 6
+    },
+    {
+      "id": "p_values",
+      "subject": "pse",
+      "domain": "价值观",
+      "title": "价值观与选择",
+      "question": "面对一个两难情境，你的孩子能说出自己的选择和理由吗？",
+      "grade": 6
+    },
+    {
+      "id": "l_care",
+      "subject": "life",
+      "domain": "生活自理",
+      "title": "生活自理",
+      "question": "你的孩子能自己穿衣服、系鞋带吗？",
+      "grade": 0
+    },
+    {
+      "id": "l_safety",
+      "subject": "life",
+      "domain": "安全",
+      "title": "安全常识",
+      "question": "你的孩子知道不能碰插座、不能跟陌生人走吗？",
+      "grade": 0
+    },
+    {
+      "id": "l_cook",
+      "subject": "life",
+      "domain": "家务",
+      "title": "简单烹饪",
+      "question": "你的孩子能帮忙洗菜、做个简单的三明治吗？",
+      "grade": 3
+    },
+    {
+      "id": "l_money",
+      "subject": "life",
+      "domain": "金钱管理",
+      "title": "认识钱币",
+      "question": "你的孩子能认识不同面值的钱，并算出买东西要找多少吗？",
+      "grade": 2
+    },
+    {
+      "id": "l_budget",
+      "subject": "life",
+      "domain": "金钱管理",
+      "title": "零花钱管理",
+      "question": "你的孩子能规划自己的零花钱，分清“想要”和“需要”吗？",
+      "grade": 4
+    },
+    {
+      "id": "l_time",
+      "subject": "life",
+      "domain": "时间管理",
+      "title": "时间管理",
+      "question": "你的孩子能自己安排放学后的时间吗？",
+      "grade": 3
+    },
+    {
+      "id": "l_health",
+      "subject": "life",
+      "domain": "健康",
+      "title": "健康与卫生",
+      "question": "你的孩子能坚持饭前便后洗手、早晚刷牙吗？",
+      "grade": 1
+    },
+    {
+      "id": "l_firstaid",
+      "subject": "life",
+      "domain": "安全",
+      "title": "基本急救",
+      "question": "你的孩子知道流鼻血或小烫伤时该怎么处理吗？",
+      "grade": 6
+    },
+    {
+      "id": "t_device",
+      "subject": "it",
+      "domain": "计算机基础",
+      "title": "认识计算机",
+      "question": "你的孩子能指出电脑的显示器、键盘和鼠标吗？",
+      "grade": 1
+    },
+    {
+      "id": "t_type",
+      "subject": "it",
+      "domain": "计算机基础",
+      "title": "键盘与打字",
+      "question": "你的孩子能用拼音输入法打出一句话吗？",
+      "grade": 2
+    },
+    {
+      "id": "t_file",
+      "subject": "it",
+      "domain": "计算机基础",
+      "title": "文件与文件夹",
+      "question": "你的孩子能新建文件夹并给文件改名吗？",
+      "grade": 3
+    },
+    {
+      "id": "t_search",
+      "subject": "it",
+      "domain": "网络",
+      "title": "网络搜索",
+      "question": "你的孩子能用搜索引擎查找一个问题的答案吗？",
+      "grade": 4
+    },
+    {
+      "id": "t_netsafe",
+      "subject": "it",
+      "domain": "网络安全",
+      "title": "网络安全",
+      "question": "你的孩子知道不能在网上透露真实姓名和地址吗？",
+      "grade": 4
+    },
+    {
+      "id": "t_doc",
+      "subject": "it",
+      "domain": "应用",
+      "title": "文档处理",
+      "question": "你的孩子能在一个文档里打字、插入图片并保存吗？",
+      "grade": 4
+    },
+    {
+      "id": "t_logic",
+      "subject": "it",
+      "domain": "编程",
+      "title": "逻辑与算法思维",
+      "question": "你的孩子能把“刷牙”拆成几个有顺序的步骤吗？",
+      "grade": 5
+    },
+    {
+      "id": "t_block",
+      "subject": "it",
+      "domain": "编程",
+      "title": "图形化编程",
+      "question": "你的孩子能用积木块拼出一段让角色移动的小程序吗？",
+      "grade": 5
+    },
+    {
+      "id": "t_code",
+      "subject": "it",
+      "domain": "编程",
+      "title": "文本编程入门",
+      "question": "你的孩子能用Python打印一句话、写一个简单循环吗？",
+      "grade": 6
+    },
+    {
+      "id": "t_data",
+      "subject": "it",
+      "domain": "应用",
+      "title": "数据与表格",
+      "question": "你的孩子能制作一个简单表格并排序筛选数据吗？",
+      "grade": 6
+    },
+    {
+      "id": "g_focus",
+      "subject": "learn",
+      "domain": "学习习惯",
+      "title": "专注力",
+      "question": "你的孩子能专心做一件事15分钟不分心吗？",
+      "grade": 0
+    },
+    {
+      "id": "g_memory",
+      "subject": "learn",
+      "domain": "学习方法",
+      "title": "记忆方法",
+      "question": "你的孩子能用分组或编口诀的方法记住一串信息吗？",
+      "grade": 2
+    },
+    {
+      "id": "g_question",
+      "subject": "learn",
+      "domain": "学习方法",
+      "title": "学会提问",
+      "question": "你的孩子能针对一个故事或现象提出“为什么”吗？",
+      "grade": 2
+    },
+    {
+      "id": "g_note",
+      "subject": "learn",
+      "domain": "学习方法",
+      "title": "做笔记",
+      "question": "你的孩子能用自己的话记下一节课的重点吗？",
+      "grade": 4
+    },
+    {
+      "id": "g_plan",
+      "subject": "learn",
+      "domain": "学习习惯",
+      "title": "制定学习计划",
+      "question": "你的孩子能列出今天要完成的几件事并按顺序做吗？",
+      "grade": 4
+    },
+    {
+      "id": "g_reflect",
+      "subject": "learn",
+      "domain": "学习方法",
+      "title": "反思与总结",
+      "question": "做完一件事，你的孩子能说说哪里做得好、哪里能改进吗？",
+      "grade": 5
+    },
+    {
+      "id": "g_research",
+      "subject": "learn",
+      "domain": "学习方法",
+      "title": "查资料与研究",
+      "question": "你的孩子能围绕一个问题找几份资料并整理出答案吗？",
+      "grade": 6
+    },
+    {
+      "id": "g_goal",
+      "subject": "learn",
+      "domain": "学习习惯",
+      "title": "设定目标",
+      "question": "你的孩子能为一周的学习设定一个小目标吗？",
+      "grade": 6
+    }
+  ]
+}

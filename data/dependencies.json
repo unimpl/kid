@@ -1,0 +1,432 @@
+{
+  "version": "v1",
+  "note": "topicId 依赖于 prerequisiteId（前置知识）",
+  "edgeCount": 85,
+  "dependencies": [
+    {
+      "topicId": "m_count20",
+      "prerequisiteId": "m_count10",
+      "strength": "hard"
+    },
+    {
+      "topicId": "m_compare",
+      "prerequisiteId": "m_count10",
+      "strength": "hard"
+    },
+    {
+      "topicId": "m_add10",
+      "prerequisiteId": "m_count20",
+      "strength": "hard"
+    },
+    {
+      "topicId": "m_sub10",
+      "prerequisiteId": "m_add10",
+      "strength": "hard"
+    },
+    {
+      "topicId": "m_add20",
+      "prerequisiteId": "m_add10",
+      "strength": "hard"
+    },
+    {
+      "topicId": "m_mult",
+      "prerequisiteId": "m_add20",
+      "strength": "hard"
+    },
+    {
+      "topicId": "m_div",
+      "prerequisiteId": "m_mult",
+      "strength": "hard"
+    },
+    {
+      "topicId": "m_frac",
+      "prerequisiteId": "m_div",
+      "strength": "hard"
+    },
+    {
+      "topicId": "m_decimal",
+      "prerequisiteId": "m_frac",
+      "strength": "hard"
+    },
+    {
+      "topicId": "m_percent",
+      "prerequisiteId": "m_decimal",
+      "strength": "hard"
+    },
+    {
+      "topicId": "m_equation",
+      "prerequisiteId": "m_decimal",
+      "strength": "hard"
+    },
+    {
+      "topicId": "m_ratio",
+      "prerequisiteId": "m_percent",
+      "strength": "hard"
+    },
+    {
+      "topicId": "m_ratio",
+      "prerequisiteId": "m_equation",
+      "strength": "hard"
+    },
+    {
+      "topicId": "m_area",
+      "prerequisiteId": "m_mult",
+      "strength": "hard"
+    },
+    {
+      "topicId": "m_stat",
+      "prerequisiteId": "m_frac",
+      "strength": "hard"
+    },
+    {
+      "topicId": "c_stroke",
+      "prerequisiteId": "c_pinyin",
+      "strength": "hard"
+    },
+    {
+      "topicId": "c_word",
+      "prerequisiteId": "c_stroke",
+      "strength": "hard"
+    },
+    {
+      "topicId": "c_sentence",
+      "prerequisiteId": "c_word",
+      "strength": "hard"
+    },
+    {
+      "topicId": "c_read",
+      "prerequisiteId": "c_sentence",
+      "strength": "hard"
+    },
+    {
+      "topicId": "c_comprehension",
+      "prerequisiteId": "c_read",
+      "strength": "hard"
+    },
+    {
+      "topicId": "c_writepic",
+      "prerequisiteId": "c_sentence",
+      "strength": "hard"
+    },
+    {
+      "topicId": "c_composition",
+      "prerequisiteId": "c_writepic",
+      "strength": "hard"
+    },
+    {
+      "topicId": "c_composition",
+      "prerequisiteId": "c_comprehension",
+      "strength": "hard"
+    },
+    {
+      "topicId": "c_argument",
+      "prerequisiteId": "c_composition",
+      "strength": "hard"
+    },
+    {
+      "topicId": "c_poetry",
+      "prerequisiteId": "c_read",
+      "strength": "hard"
+    },
+    {
+      "topicId": "c_classics",
+      "prerequisiteId": "c_poetry",
+      "strength": "hard"
+    },
+    {
+      "topicId": "c_classics",
+      "prerequisiteId": "c_comprehension",
+      "strength": "hard"
+    },
+    {
+      "topicId": "h_community",
+      "prerequisiteId": "h_family",
+      "strength": "hard"
+    },
+    {
+      "topicId": "h_timeline",
+      "prerequisiteId": "h_community",
+      "strength": "hard"
+    },
+    {
+      "topicId": "h_ancient",
+      "prerequisiteId": "h_timeline",
+      "strength": "hard"
+    },
+    {
+      "topicId": "h_dynasty",
+      "prerequisiteId": "h_ancient",
+      "strength": "hard"
+    },
+    {
+      "topicId": "h_invent",
+      "prerequisiteId": "h_ancient",
+      "strength": "hard"
+    },
+    {
+      "topicId": "h_modern",
+      "prerequisiteId": "h_dynasty",
+      "strength": "hard"
+    },
+    {
+      "topicId": "h_world",
+      "prerequisiteId": "h_ancient",
+      "strength": "hard"
+    },
+    {
+      "topicId": "h_revolution",
+      "prerequisiteId": "h_modern",
+      "strength": "hard"
+    },
+    {
+      "topicId": "s_living",
+      "prerequisiteId": "s_observe",
+      "strength": "hard"
+    },
+    {
+      "topicId": "s_plant",
+      "prerequisiteId": "s_living",
+      "strength": "hard"
+    },
+    {
+      "topicId": "s_animal",
+      "prerequisiteId": "s_living",
+      "strength": "hard"
+    },
+    {
+      "topicId": "s_matter",
+      "prerequisiteId": "s_observe",
+      "strength": "hard"
+    },
+    {
+      "topicId": "s_water",
+      "prerequisiteId": "s_matter",
+      "strength": "hard"
+    },
+    {
+      "topicId": "s_force",
+      "prerequisiteId": "s_observe",
+      "strength": "hard"
+    },
+    {
+      "topicId": "s_light",
+      "prerequisiteId": "s_observe",
+      "strength": "hard"
+    },
+    {
+      "topicId": "s_magnet",
+      "prerequisiteId": "s_force",
+      "strength": "hard"
+    },
+    {
+      "topicId": "s_circuit",
+      "prerequisiteId": "s_magnet",
+      "strength": "hard"
+    },
+    {
+      "topicId": "s_earth",
+      "prerequisiteId": "s_observe",
+      "strength": "hard"
+    },
+    {
+      "topicId": "s_eco",
+      "prerequisiteId": "s_plant",
+      "strength": "hard"
+    },
+    {
+      "topicId": "s_eco",
+      "prerequisiteId": "s_animal",
+      "strength": "hard"
+    },
+    {
+      "topicId": "s_energy",
+      "prerequisiteId": "s_circuit",
+      "strength": "hard"
+    },
+    {
+      "topicId": "s_energy",
+      "prerequisiteId": "s_force",
+      "strength": "hard"
+    },
+    {
+      "topicId": "p_emotion",
+      "prerequisiteId": "p_self",
+      "strength": "hard"
+    },
+    {
+      "topicId": "p_friend",
+      "prerequisiteId": "p_emotion",
+      "strength": "hard"
+    },
+    {
+      "topicId": "p_rule",
+      "prerequisiteId": "p_self",
+      "strength": "hard"
+    },
+    {
+      "topicId": "p_resp",
+      "prerequisiteId": "p_rule",
+      "strength": "hard"
+    },
+    {
+      "topicId": "p_persp",
+      "prerequisiteId": "p_friend",
+      "strength": "hard"
+    },
+    {
+      "topicId": "p_citizen",
+      "prerequisiteId": "p_resp",
+      "strength": "hard"
+    },
+    {
+      "topicId": "p_citizen",
+      "prerequisiteId": "p_persp",
+      "strength": "hard"
+    },
+    {
+      "topicId": "p_values",
+      "prerequisiteId": "p_citizen",
+      "strength": "hard"
+    },
+    {
+      "topicId": "l_safety",
+      "prerequisiteId": "l_care",
+      "strength": "hard"
+    },
+    {
+      "topicId": "l_cook",
+      "prerequisiteId": "l_care",
+      "strength": "hard"
+    },
+    {
+      "topicId": "l_money",
+      "prerequisiteId": "l_care",
+      "strength": "hard"
+    },
+    {
+      "topicId": "l_money",
+      "prerequisiteId": "m_add10",
+      "strength": "hard"
+    },
+    {
+      "topicId": "l_budget",
+      "prerequisiteId": "l_money",
+      "strength": "hard"
+    },
+    {
+      "topicId": "l_time",
+      "prerequisiteId": "l_safety",
+      "strength": "hard"
+    },
+    {
+      "topicId": "l_health",
+      "prerequisiteId": "l_care",
+      "strength": "hard"
+    },
+    {
+      "topicId": "l_firstaid",
+      "prerequisiteId": "l_safety",
+      "strength": "hard"
+    },
+    {
+      "topicId": "l_firstaid",
+      "prerequisiteId": "l_health",
+      "strength": "hard"
+    },
+    {
+      "topicId": "t_type",
+      "prerequisiteId": "t_device",
+      "strength": "hard"
+    },
+    {
+      "topicId": "t_file",
+      "prerequisiteId": "t_device",
+      "strength": "hard"
+    },
+    {
+      "topicId": "t_search",
+      "prerequisiteId": "t_file",
+      "strength": "hard"
+    },
+    {
+      "topicId": "t_netsafe",
+      "prerequisiteId": "t_search",
+      "strength": "hard"
+    },
+    {
+      "topicId": "t_doc",
+      "prerequisiteId": "t_type",
+      "strength": "hard"
+    },
+    {
+      "topicId": "t_doc",
+      "prerequisiteId": "t_file",
+      "strength": "hard"
+    },
+    {
+      "topicId": "t_logic",
+      "prerequisiteId": "t_device",
+      "strength": "hard"
+    },
+    {
+      "topicId": "t_block",
+      "prerequisiteId": "t_logic",
+      "strength": "hard"
+    },
+    {
+      "topicId": "t_code",
+      "prerequisiteId": "t_block",
+      "strength": "hard"
+    },
+    {
+      "topicId": "t_data",
+      "prerequisiteId": "t_doc",
+      "strength": "hard"
+    },
+    {
+      "topicId": "t_data",
+      "prerequisiteId": "t_search",
+      "strength": "hard"
+    },
+    {
+      "topicId": "g_memory",
+      "prerequisiteId": "g_focus",
+      "strength": "hard"
+    },
+    {
+      "topicId": "g_question",
+      "prerequisiteId": "g_focus",
+      "strength": "hard"
+    },
+    {
+      "topicId": "g_note",
+      "prerequisiteId": "g_memory",
+      "strength": "hard"
+    },
+    {
+      "topicId": "g_plan",
+      "prerequisiteId": "g_focus",
+      "strength": "hard"
+    },
+    {
+      "topicId": "g_reflect",
+      "prerequisiteId": "g_note",
+      "strength": "hard"
+    },
+    {
+      "topicId": "g_research",
+      "prerequisiteId": "g_question",
+      "strength": "hard"
+    },
+    {
+      "topicId": "g_research",
+      "prerequisiteId": "t_search",
+      "strength": "hard"
+    },
+    {
+      "topicId": "g_goal",
+      "prerequisiteId": "g_plan",
+      "strength": "hard"
+    }
+  ]
+}

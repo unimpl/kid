@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kid.local/schema/dependencies.schema.json",
+  "title": "小学知识图谱 — 前置依赖 (dependencies)",
+  "description": "有向边：topicId 依赖于 prerequisiteId（学会 topicId 之前需先掌握 prerequisiteId）。构成一个有向无环图。",
+  "type": "object",
+  "required": ["version", "edgeCount", "dependencies"],
+  "properties": {
+    "version": { "type": "string" },
+    "note": { "type": "string" },
+    "edgeCount": { "type": "integer", "minimum": 0 },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["topicId", "prerequisiteId", "strength"],
+        "properties": {
+          "topicId": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$", "description": "依赖方概念 id" },
+          "prerequisiteId": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$", "description": "被依赖的前置概念 id" },
+          "strength": { "type": "string", "enum": ["hard", "soft"], "description": "hard=必须先学；soft=建议先学" },
+          "reason": { "type": ["string", "null"], "description": "一句话说明为何此前置（可选）" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

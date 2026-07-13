@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kid.local/schema/concepts.schema.json",
+  "title": "小学知识图谱 — 概念 (concepts)",
+  "description": "知识图谱的节点：一个可教学的概念，带学习年龄、领域、标题与家长引导问。前置关系见 dependencies.json。",
+  "type": "object",
+  "required": [
+    "version",
+    "conceptCount",
+    "concepts"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "conceptCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "concepts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "subject",
+          "grade",
+          "domain",
+          "title",
+          "question"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$",
+            "description": "稳定唯一标识，被 dependencies 引用"
+          },
+          "subject": {
+            "type": "string",
+            "description": "学科 key（见 subjects.json）"
+          },
+          "grade": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 6,
+            "description": "年级：0=学前，1-6=小学1-6年级"
+          },
+          "domain": {
+            "type": "string",
+            "minLength": 1,
+            "description": "所属领域，如「数与代数」"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "description": "概念标题"
+          },
+          "question": {
+            "type": "string",
+            "minLength": 1,
+            "description": "家长引导问：判断孩子是否掌握的提示"
+          },
+          "source": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "来源教材标识（扫描书时填写），可选"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

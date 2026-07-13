@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="小学知识全景图：把课程概念连成一张可旋转、可探索的地图，标注每个概念的前置知识与学习年级。">
+<title>孩子学到的一切 · 小学知识图谱</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrap" aria-label="小学知识图谱">
+  <div id="stage"><canvas id="cv"></canvas></div>
+  <div id="logo">小学图谱<span class="rp">.</span></div>
+  <div id="head">
+    <p class="kicker">小学知识全景图</p>
+    <h1>孩子学到的<span class="wbr">一切<span class="rp">.</span></span></h1>
+    <p><b id="nCount">0</b> 个概念，<b id="eCount">0</b> 条前置关系，从认数、拼音到方程与编程。每一条连线都在说"什么必须先学会"。 <b>点任意一个圆点</b>，就能看到学会它之前需要掌握的全部基础。</p>
+    <p class="ctx">基于国家义务教育课程方案整理，标注学习年级与前置知识，方便家长按图索骥。</p>
+    <div id="ctas">
+      <a class="btn" href="#" id="aboutBtn">关于这张图</a>
+      <span class="lic">开放数据 · 持续完善</span>
+    </div>
+  </div>
+  <div id="legend" aria-label="学科（点击筛选）">
+    <div class="lg-title">学科 · 点击切换</div>
+    <div id="chips"></div>
+  </div>
+  <div id="tip" role="tooltip">
+    <div class="tmeta"><span class="sw"></span><span class="ts"></span></div>
+    <div class="ttl"></div>
+    <div class="q"></div>
+  </div>
+  <div id="card" role="dialog" aria-label="所选概念">
+    <div class="cbar">
+      <button class="back" aria-label="返回上一个概念"><span aria-hidden="true">&larr;</span> 返回</button>
+      <span class="sp"></span>
+      <button class="close" aria-label="清除选择">&times;</button>
+    </div>
+    <div class="cmeta"><span class="sw"></span><span class="cs"></span></div>
+    <div class="ctl"></div>
+    <div class="cq"></div>
+    <div class="big"><span class="n mono">0</span><span class="u">个前置知识</span></div>
+    <div class="sub"></div>
+    <div class="sec sec-pre">
+      <div class="seclabel">直接建立在 <span class="k mono"></span> 之上</div>
+      <div class="rows rows-pre"></div>
+    </div>
+    <div class="sec sec-next">
+      <div class="seclabel">解锁下一步 <span class="k mono"></span></div>
+      <div class="rows rows-next"></div>
+    </div>
+  </div>
+  <div id="hint"><b>拖动</b> 旋转 · <b>右键拖动</b> 平移 · <b>滚轮</b> 缩放 · <b>点</b> 圆点 · <b>双击</b> 复位</div>
+</div>
+<script src="dist/data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

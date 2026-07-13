@@ -1,0 +1,46 @@
+{
+  "version": "v1",
+  "subjectCount": 8,
+  "subjects": [
+    {
+      "key": "math",
+      "name": "数学",
+      "color": "#3D63D8"
+    },
+    {
+      "key": "science",
+      "name": "科学",
+      "color": "#9DB8DC"
+    },
+    {
+      "key": "chinese",
+      "name": "语文",
+      "color": "#E76D95"
+    },
+    {
+      "key": "history",
+      "name": "历史",
+      "color": "#EFE3C8"
+    },
+    {
+      "key": "pse",
+      "name": "品德与社会",
+      "color": "#DD3B31"
+    },
+    {
+      "key": "life",
+      "name": "生活技能",
+      "color": "#E8B8C4"
+    },
+    {
+      "key": "it",
+      "name": "信息技术",
+      "color": "#4B5AA8"
+    },
+    {
+      "key": "learn",
+      "name": "学会学习",
+      "color": "#E8B08A"
+    }
+  ]
+}

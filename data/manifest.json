@@ -1,0 +1,37 @@
+{
+  "dataset": "小学知识图谱",
+  "version": "v1",
+  "gradeRange": {
+    "min": 0,
+    "max": 6
+  },
+  "counts": {
+    "subjects": 8,
+    "concepts": 82,
+    "dependencies": 85,
+    "conceptsBySubject": {
+      "math": 15,
+      "chinese": 11,
+      "history": 9,
+      "science": 13,
+      "pse": 8,
+      "life": 8,
+      "it": 10,
+      "learn": 8
+    }
+  },
+  "files": {
+    "subjects.json": {
+      "bytes": 761,
+      "sha256": "df069d3edfefa777295b64348fa7b0734abf03bfe105b85edbc36cbc324de80f"
+    },
+    "concepts.json": {
+      "bytes": 19076,
+      "sha256": "e07e6b77a8076d2954d65369481cc52e51358814608cb7389c369a8bf8a56504"
+    },
+    "dependencies.json": {
+      "bytes": 8869,
+      "sha256": "d58bef822400a0d087ce4e05558eeed5a47d7912a13ea8b97d41d2b7beb59b79"
+    }
+  }
+}

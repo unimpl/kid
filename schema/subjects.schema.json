@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kid.local/schema/subjects.schema.json",
+  "title": "小学知识图谱 — 学科 (subjects)",
+  "description": "学科定义：每个学科一个稳定 key、显示名与配色。概念通过 subject 字段引用此 key。",
+  "type": "object",
+  "required": ["version", "subjectCount", "subjects"],
+  "properties": {
+    "version": { "type": "string" },
+    "subjectCount": { "type": "integer", "minimum": 0 },
+    "subjects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "color"],
+        "properties": {
+          "key": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$", "description": "稳定标识，概念的 subject 字段引用它" },
+          "name": { "type": "string", "minLength": 1, "description": "学科显示名（中文）" },
+          "color": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$", "description": "十六进制配色" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
