@@ -1,0 +1,7 @@
+{
+  "name": "star-subtraction",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "星际减法大冒险 - 一年级数学减法游戏 (PixiJS + p5.js)"
+}
